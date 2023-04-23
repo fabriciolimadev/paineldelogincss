@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/variable.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <!--LINK CSS-->
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!--FONTS-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="login-side">
+            <header class="header-logo">
+                <img class="logo" src="images/logo.svg" alt="Logo">
+            </header>
+            <div class="container">
+                <form action="">
+                    <fieldset>
+                        <header class="header-login">
+                            <div class="form-title">
+                                <img class="title-icon" src="images/enter.svg" alt="">
+                                <h1 class="tittle"> Faça seu login</h1>
+                            </div>
+                            <p>Entre com suas informações de cadastro.</p>
+                        </header>
+                        <div class="wp">
+                            <div class="label-wrapper login">
+                                <label for="email">E-mail</label>
+                                <div class="wrapper-input">
+                                    <img class="icon-input icon-email" src="images/mail.svg" alt="">
+                                    <input class="inp" type="email" name="Email" id="email"
+                                        placeholder="Digite seu e-mail" autofocus>
+                                </div>
+                            </div>
+                            <div class="label-wrapper">
+                                <label for="senha">Senha</label>
+                                <div class="wrapper-input">
+                                    <img class="icon-input icon-pass" src="images/lock.svg" alt="">
+                                    <input class="inp" type="password" name="Email" id="senha"
+                                        placeholder="Digite sua senha">
+                                    <img src="images/eye.svg" alt="" class="icon-input icon-eye">
+
+                                </div>
+
+                            </div>
+                            <div class="rememb">
+                                <div class="wrapper">
+                                    <input class="check" type="checkbox" name="remember" id="rememb">
+                                    <label for="rememb">Lembre-me</label>
+                                </div>
+                                <a href="#" class="forgot-pass" target="_blank" rel="noopener noreferrer">Esqueci minha
+                                    senha</a>
+
+                            </div>
+                            <input type="submit" value="ENTRAR">
+                        </div>
+                        <a href="#" class="register">Não tem uma conta? <strong>Registre-se</strong></a>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="image-side">
+            <!--<img src="images/images/side-image-2x.jpg" alt="">-->
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
