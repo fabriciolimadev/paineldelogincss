@@ -1,18 +1,14 @@
 @media screen and (max-width: 1155px) {
   fieldset {
     background-color: transparent;
-    
   }
 }
 @media screen and (max-width: 753px) {
-  .image-side{
+  .image-side {
     display: none;
   }
-   main {
+  main {
     display: flex;
     justify-content: center;
-  }
-  fieldset {
-    
   }
 }
