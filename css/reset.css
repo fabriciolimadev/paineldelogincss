@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "TT Chocolates", sans-serif;
+  color: var(--white);
+  
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  vertical-align: middle;
+}
+
+fieldset{
+    border: none;
+}

@@ -1,0 +1,234 @@
+body {
+  background-color: var(--background);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+}
+.header-logo {
+  padding: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logo {
+  width: 100%;
+}
+.login-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image-side {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/side-image.jpg);
+}
+
+fieldset {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 572px;
+  height: 512px;
+  left: 74px;
+  top: 194px;
+
+  background: #24221f;
+  border-radius: 4px;
+}
+.header-login {
+  width: 334px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.form-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header-login p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #afb6c2;
+}
+.tittle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #d4ccb6;
+}
+.title-icon {
+  width: 24px;
+  height: 24px;
+  display: inline;
+}
+.label-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.wrapper-input {
+  width: 335px;
+  height: 44px;
+  border: 1px solid #868686;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 12px;
+}
+.login {
+  margin-bottom: 20px;
+}
+
+.icon-input {
+  width: 20px;
+  height: 20px;
+}
+.inp {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ffc632;
+  font-size: 16px;
+}
+.inp::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #a9afb9;
+}
+
+.wrapper-input:focus-within {
+  border: 1px solid #ffc632;
+  box-shadow: 0px 0px 0px 2px #ffde88;
+  border-radius: 4px;
+}
+
+.rememb {
+  display: flex;
+  justify-content: space-between;
+}
+.label-wrapper label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #afb6c2;
+}
+.rememb label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #a9afb9;
+}
+.check {
+  margin-right: 5px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #868686;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-color: #ffc632;
+  background-image: url(/images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.forgot-pass {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffc632;
+}
+.rememb {
+  margin: 20px 0 60px 0;
+}
+
+.wp {
+  display: flex;
+  flex-direction: column;
+}
+input[type="submit"] {
+  width: 334px;
+  height: 51px;
+  left: 193px;
+  top: 566px;
+  border: none;
+  background: #ffc632;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #473404;
+}
+input[type="submit"]:hover {
+  transform: scale(1.1);
+}
+.register {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffc632;
+}
+.icon-eye {
+  cursor: pointer;
+}
