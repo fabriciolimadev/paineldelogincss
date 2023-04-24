@@ -18,7 +18,7 @@ Para desenvolver eu utlizei HTML CSS3. Porem adicionei duas fucionalidades em qu
 - Botão de escoder e mostrar senha.
 - Alteração da cor do icones quando o input está em foco.
 
-[Click aqui para visualizar o preview](https://duckduckgo.com).
+[Click aqui para visualizar o preview](https://paineldelogincss-sspl-fabriciolimadev.vercel.app).
 
 ### DESING EM TELAS GRANDES
 ![DESING EM TELAS GRANDES](https://github.com/fabriciolimadev/paineldelogincss/blob/main/Desafio%20Login%20form%20css/Large%20screen.png?raw=true)
